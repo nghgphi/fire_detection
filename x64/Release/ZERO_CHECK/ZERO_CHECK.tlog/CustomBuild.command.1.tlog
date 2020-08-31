@@ -1,0 +1,10 @@
+^C:\USERS\ADMIN\DESKTOP\AI\ABC\DARKNET\CMAKEFILES\0D1AE8AD042C82DA6A0BF2139E60046F\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Admin/Desktop/AI/abc/darknet -BC:/Users/Admin/Desktop/AI/abc/darknet --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Admin/Desktop/AI/abc/darknet/Darknet.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

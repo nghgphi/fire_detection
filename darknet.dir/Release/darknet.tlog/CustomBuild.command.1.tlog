@@ -1,0 +1,10 @@
+^C:\USERS\ADMIN\DESKTOP\AI\ABC\DARKNET\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Admin/Desktop/AI/abc/darknet -BC:/Users/Admin/Desktop/AI/abc/darknet --check-stamp-file C:/Users/Admin/Desktop/AI/abc/darknet/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

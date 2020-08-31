@@ -1,0 +1,7 @@
+C:/Users/Admin/Desktop/AI/abc/darknet/CMakeFiles/dark.dir
+C:/Users/Admin/Desktop/AI/abc/darknet/CMakeFiles/uselib.dir
+C:/Users/Admin/Desktop/AI/abc/darknet/CMakeFiles/uselib_track.dir
+C:/Users/Admin/Desktop/AI/abc/darknet/CMakeFiles/INSTALL.dir
+C:/Users/Admin/Desktop/AI/abc/darknet/CMakeFiles/darknet.dir
+C:/Users/Admin/Desktop/AI/abc/darknet/CMakeFiles/ALL_BUILD.dir
+C:/Users/Admin/Desktop/AI/abc/darknet/CMakeFiles/ZERO_CHECK.dir
